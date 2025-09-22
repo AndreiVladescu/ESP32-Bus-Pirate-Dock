@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "07b4bde2-66d8-4845-8f7d-da280a4d29f6")
 	(paper "A4")
+	(title_block
+		(title "ESP32 Bus Pirate Dock")
+		(date "2025-09-21")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
@@ -2636,19 +2640,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "ESP32-Bus-Pirate Dock"
-		(exclude_from_sim no)
-		(at 216.408 173.736 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-				(color 72 0 0 1)
-			)
-		)
-		(uuid "161fccff-9908-44df-8ae3-46b73d54ab6d")
 	)
 	(wire
 		(pts

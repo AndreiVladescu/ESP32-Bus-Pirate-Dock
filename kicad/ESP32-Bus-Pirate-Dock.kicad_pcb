@@ -716,12 +716,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3d7354ab-59c3-464a-b2ad-9cbd436b6f84")
-		(at 209.775 76.975 180)
+		(at 209.625 75.75 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3ff102a8-e26a-4ae0-9b92-98ced6642649")
 			(effects
 				(font
@@ -731,7 +732,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.68 0)
+			(at -3.425 -0.125 0)
 			(layer "F.Fab")
 			(uuid "78e1b445-709b-41aa-8237-46a7d68ab5f3")
 			(effects
@@ -915,12 +916,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4a4c3a55-01b0-49ce-936b-8283ef9794e3")
-		(at 209.65 73.225 180)
+		(at 209.625 73.35 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "69b3adef-ccb8-4d5a-a521-c90041c04cee")
 			(effects
 				(font
@@ -930,7 +932,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.68 0)
+			(at -3.425 -0.175 0)
 			(layer "F.Fab")
 			(uuid "642ce5a2-a48a-4e4e-afd4-5b40b064ef0b")
 			(effects
@@ -2837,6 +2839,7 @@
 		(property "Reference" "U2"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fba34de0-84c2-4402-b6c3-90c0ea9e1116")
 			(effects
 				(font
@@ -3102,6 +3105,7 @@
 		(property "Reference" "U3"
 			(at 0 -4 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e5ea8a20-edef-446b-97e7-20f7fd0afd40")
 			(effects
 				(font

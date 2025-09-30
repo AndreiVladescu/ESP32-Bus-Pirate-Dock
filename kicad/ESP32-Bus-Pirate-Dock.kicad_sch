@@ -7702,6 +7702,28 @@
 			)
 		)
 	)
+	(global_label "VTARGET"
+		(shape input)
+		(at 55.88 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42e78a0f-1ea2-4fea-b45c-a59d43bc53f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 74.2866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO37"
 		(shape input)
 		(at 168.91 41.91 0)
@@ -8956,28 +8978,6 @@
 			)
 		)
 	)
-	(global_label "VTARGET"
-		(shape input)
-		(at 55.88 35.56 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdac4071-b890-44de-a334-71507cabd7a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 24.7734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO10"
 		(shape input)
 		(at 227.33 104.14 180)
@@ -9833,7 +9833,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 55.88 63.5 0)
+		(at 55.88 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9842,7 +9842,7 @@
 		(fields_autoplaced yes)
 		(uuid "12ab36b6-1d02-42f5-b08c-8cbd148f767e")
 		(property "Reference" "#PWR02"
-			(at 55.88 69.85 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,15 +9851,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 68.58 0)
+			(at 58.42 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 63.5 0)
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +9869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 63.5 0)
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 55.88 63.5 0)
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10784,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "43c42c02-6c42-4326-aaa7-d633e3e8e850")
@@ -13342,7 +13343,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "edecbaa7-0b4b-4320-b538-c0d875582d44")
 		(property "Reference" "J1"

@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|184369601|118835979|439760d5-432d-4b8a-9a64-5820f49f4923|4d7b406b-d452-4f9d-849d-b77c72451ea0",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -235,6 +240,10 @@
         {
           "diameter": 0.4572,
           "drill": 0.254
+        },
+        {
+          "diameter": 0.5032,
+          "drill": 0.3
         },
         {
           "diameter": 0.61,

@@ -60,7 +60,83 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|184369601|118835979|439760d5-432d-4b8a-9a64-5820f49f4923|4d7b406b-d452-4f9d-849d-b77c72451ea0",
+          "silk_overlap|126200000|100260000|204860c9-5ac5-42fd-a2cb-df143ed95e1b|b733d567-32ff-408a-8b45-e4fe073717e2",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|102240000|670d092d-b19e-43b8-a55d-c7df266b948d|b733d567-32ff-408a-8b45-e4fe073717e2",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|102990000|670d092d-b19e-43b8-a55d-c7df266b948d|5af63318-78d5-4b86-a4bd-257c28d7e20c",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|104590000|87891eb9-93d4-4e49-a2d1-82c00af99238|5af63318-78d5-4b86-a4bd-257c28d7e20c",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|79940000|03ab5e82-bdfc-4616-96f0-0a30bd6486d8|975d0578-1eae-49ae-b100-66c43a719e8f",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|81920000|a7cdae41-d632-4d35-ab8a-6b156a6968d5|975d0578-1eae-49ae-b100-66c43a719e8f",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|82480000|a7cdae41-d632-4d35-ab8a-6b156a6968d5|e889a6b7-48da-488c-8358-201f989b082d",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|84460000|5f352d81-d6b3-48d6-8ccb-89ae964d4eb7|e889a6b7-48da-488c-8358-201f989b082d",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|85020000|5f352d81-d6b3-48d6-8ccb-89ae964d4eb7|6336cf55-507b-4f86-899a-699009cf3ac6",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|87000000|4ac7e6dc-8c9a-4a89-85a2-c7023643c35b|6336cf55-507b-4f86-899a-699009cf3ac6",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|87560000|4ac7e6dc-8c9a-4a89-85a2-c7023643c35b|f37d3962-f34b-4666-be31-e1a864dd55d6",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|89540000|7de1c052-f435-4617-96d8-b9252ed44130|f37d3962-f34b-4666-be31-e1a864dd55d6",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|90100000|7de1c052-f435-4617-96d8-b9252ed44130|87e225c6-fb8f-42da-9656-f926b83dbbf4",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|92080000|85545cc9-7f8e-4100-8e67-5d45fcb934e8|87e225c6-fb8f-42da-9656-f926b83dbbf4",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|92640000|85545cc9-7f8e-4100-8e67-5d45fcb934e8|e293a3ef-4a67-40a7-a782-0b0321955e0a",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|94620000|b64b8032-f95b-4dd1-8ad6-fc061f441d8b|e293a3ef-4a67-40a7-a782-0b0321955e0a",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|95180000|b64b8032-f95b-4dd1-8ad6-fc061f441d8b|5e3cbd77-e95e-4de9-bd7e-8944739b7ce0",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|97160000|cd63572f-6a1c-4d2e-ab4e-4222c20c90b6|5e3cbd77-e95e-4de9-bd7e-8944739b7ce0",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|97720000|cd63572f-6a1c-4d2e-ab4e-4222c20c90b6|5d9be450-b15e-4072-bb77-70c253f1f93a",
+          ""
+        ],
+        [
+          "silk_overlap|126200000|99700000|204860c9-5ac5-42fd-a2cb-df143ed95e1b|5d9be450-b15e-4072-bb77-70c253f1f93a",
           ""
         ]
       ],
@@ -563,10 +639,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/admin-andrei/Downloads/esp32_bus_pirate_dock_outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32-Bus-Pirate-Dock.step",
       "svg": "",
       "vrml": ""
     },

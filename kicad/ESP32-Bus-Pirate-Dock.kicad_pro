@@ -640,7 +640,7 @@
       "idf": "",
       "netlist": "",
       "plot": "/home/admin-andrei/Downloads/esp32_bus_pirate_dock_outputs/",
-      "pos_files": "",
+      "pos_files": "/home/admin-andrei/Downloads/esp32_bus_pirate_dock_outputs/BOM/",
       "specctra_dsn": "",
       "step": "ESP32-Bus-Pirate-Dock.step",
       "svg": "",

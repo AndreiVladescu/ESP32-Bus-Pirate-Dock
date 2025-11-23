@@ -9662,6 +9662,17 @@
 			(uuid "1fd93581-24d5-4f51-a363-b7ba7040a1a5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/EG2310/SW-TH_EG2310-L12.6-W12.8-H4.7-P2.0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 		(layer "F.Cu")

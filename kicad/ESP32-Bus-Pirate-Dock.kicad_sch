@@ -10326,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 241.3 142.24 0)
 			(effects
 				(font
@@ -12226,7 +12226,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
+		(property "Value" "Conn_02x03"
 			(at 199.39 140.97 0)
 			(effects
 				(font
@@ -14158,7 +14158,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "edecbaa7-0b4b-4320-b538-c0d875582d44")
 		(property "Reference" "J1"

@@ -3669,19 +3669,6 @@
 		(uuid 10a70965-2950-45f1-abc7-7cc7546c1951)
 	)
 	(rectangle
-		(start 19.875 78.28)
-		(end 82.72 119.03)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2e6d76d0-c00d-4191-b9aa-8e345640225c)
-	)
-	(rectangle
 		(start 21.995 123.77)
 		(end 38.87 194.145)
 		(stroke
@@ -3773,8 +3760,8 @@
 		(uuid d4fd90b0-b466-441e-8d97-8bd1420d7d58)
 	)
 	(rectangle
-		(start 243.54 140.375)
-		(end 277.54 161.75)
+		(start 21.925 79.415)
+		(end 55.925 100.79)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3800,7 +3787,7 @@
 	)
 	(text "Boot Switch"
 		(exclude_from_sim no)
-		(at 250.825 142.875 0)
+		(at 29.21 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,19 +3891,6 @@
 			)
 		)
 		(uuid "acf0a2bf-c18a-4a56-89d8-e5330bbc88f1")
-	)
-	(text "Voltage Switch"
-		(exclude_from_sim no)
-		(at 31.115 80.645 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 132 132 0 1)
-			)
-		)
-		(uuid "b27d2526-366e-4871-9b0c-0e53135ec794")
 	)
 	(text "ESP32 S3 Devkit"
 		(exclude_from_sim no)
@@ -4499,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 153.035) (xy 260.35 153.035)
+			(xy 36.195 92.075) (xy 38.735 92.075)
 		)
 		(stroke
 			(width 0)
@@ -4809,7 +4783,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 154.94) (xy 273.05 153.035)
+			(xy 51.435 93.98) (xy 51.435 92.075)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 153.035) (xy 270.51 153.035)
+			(xy 51.435 92.075) (xy 48.895 92.075)
 		)
 		(stroke
 			(width 0)
@@ -7026,7 +7000,7 @@
 	)
 	(global_label "GPIO0"
 		(shape input)
-		(at 257.81 153.035 180)
+		(at 36.195 92.075 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7036,7 +7010,7 @@
 		)
 		(uuid "653c8d3f-231e-4b3d-8c1e-37b528bd32f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.14 153.035 0)
+			(at 27.525 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8393,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 273.05 154.94 0)
+		(at 51.435 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8428,7 +8402,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c24b1c6-faf0-4e30-83a5-cd304de4c251")
 		(property "Reference" "#PWR011"
-			(at 273.05 161.29 0)
+			(at 51.435 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 160.02 0)
+			(at 51.435 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 154.94 0)
+			(at 51.435 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 154.94 0)
+			(at 51.435 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 273.05 154.94 0)
+			(at 51.435 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 184.15 0)
+		(at 260.985 153.035 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8493,7 +8467,7 @@
 		(dnp no)
 		(uuid "0fb55f21-c873-4933-b8b9-257e2dfb3920")
 		(property "Reference" "H2"
-			(at 162.56 182.8799 0)
+			(at 263.525 151.7649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8476,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 185.4199 0)
+			(at 263.525 154.3049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 160.02 184.15 0)
+			(at 260.985 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 184.15 0)
+			(at 260.985 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8503,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 184.15 0)
+			(at 260.985 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8656,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 265.43 153.035 0)
+		(at 43.815 92.075 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8690,7 +8664,7 @@
 		(dnp no)
 		(uuid "1d7fab69-5f31-4574-9c2d-67c10380bdf8")
 		(property "Reference" "SW_1"
-			(at 265.43 145.415 0)
+			(at 43.815 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8672,7 @@
 			)
 		)
 		(property "Value" "SW_BOOT"
-			(at 265.43 147.955 0)
+			(at 43.815 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8680,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
-			(at 265.43 147.955 0)
+			(at 43.815 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +8689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 147.955 0)
+			(at 43.815 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +8698,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 265.43 153.035 0)
+			(at 43.815 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10513,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 171.45 0)
+		(at 260.985 140.335 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10547,7 +10521,7 @@
 		(dnp no)
 		(uuid "a145b518-c768-478f-a99b-a16ca831fee6")
 		(property "Reference" "H4"
-			(at 162.56 170.1799 0)
+			(at 263.525 139.0649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10530,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 172.7199 0)
+			(at 263.525 141.6049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 160.02 171.45 0)
+			(at 260.985 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 171.45 0)
+			(at 260.985 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10557,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 171.45 0)
+			(at 260.985 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10840,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 177.8 0)
+		(at 260.985 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10874,7 +10848,7 @@
 		(dnp no)
 		(uuid "b93fc8f0-3b91-4a34-9bd6-b4d51a47240b")
 		(property "Reference" "H3"
-			(at 162.56 176.5299 0)
+			(at 263.525 145.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10857,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 179.0699 0)
+			(at 263.525 147.9549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10866,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 160.02 177.8 0)
+			(at 260.985 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 177.8 0)
+			(at 260.985 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10884,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 177.8 0)
+			(at 260.985 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +11069,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 190.5 0)
+		(at 260.985 159.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11103,7 +11077,7 @@
 		(dnp no)
 		(uuid "c2d493ab-978c-4760-ba88-59f386c45216")
 		(property "Reference" "H1"
-			(at 162.56 189.2299 0)
+			(at 263.525 158.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11086,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 162.56 191.7699 0)
+			(at 263.525 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +11095,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 160.02 190.5 0)
+			(at 260.985 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 190.5 0)
+			(at 260.985 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11113,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 160.02 190.5 0)
+			(at 260.985 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)

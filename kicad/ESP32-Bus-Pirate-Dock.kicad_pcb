@@ -26365,89 +26365,89 @@
 		(layer "F.SilkS")
 		(uuid "fcebd870-9676-4ec2-80d9-65541bfe821d")
 	)
-	(gr_curve
-		(pts
-			(xy 203.7 64.8) (xy 203.7 60.3) (xy 199.2 60.3) (xy 199.2 60.3)
-		)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "63119780-6595-4217-9104-b71e493bced9")
-	)
-	(gr_curve
-		(pts
-			(xy 123.7 129.49) (xy 123.7 133.99) (xy 128.2 133.99) (xy 128.2 133.99)
-		)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "78b3a720-240e-4fdc-8d93-a51371fe54b7")
-	)
 	(gr_line
-		(start 123.7 129.475)
-		(end 123.7 64.8)
+		(start 203.7 129.56202)
+		(end 203.7 64.79)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7ae0c57d-b08c-4df9-a55c-f9a7d585b5e3")
+		(uuid "2856027f-0ce6-4bc5-939c-2df614b3822e")
+	)
+	(gr_curve
+		(pts
+			(xy 199.2 134.06202) (xy 203.7 134.06202) (xy 203.7 129.56202) (xy 203.7 129.56202)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5045f7a5-5ceb-42b8-92b4-8b5de4e47454")
+	)
+	(gr_curve
+		(pts
+			(xy 203.7 64.79) (xy 203.7 60.29) (xy 199.2 60.29) (xy 199.2 60.29)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "58aa42f8-62e2-4470-8aca-f8316e5fb6f5")
+	)
+	(gr_curve
+		(pts
+			(xy 123.7 129.515) (xy 123.7 134.015) (xy 128.2 134.015) (xy 128.2 134.015)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5c66c2a6-d43d-432a-9bca-ed7ae7c42f76")
+	)
+	(gr_curve
+		(pts
+			(xy 123.7 64.79) (xy 123.7 60.29) (xy 128.2 60.29) (xy 128.2 60.29)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "792b1bce-067d-4ac7-9268-12fbbeabe910")
 	)
 	(gr_line
-		(start 203.7 129.525)
-		(end 203.7 64.8)
+		(start 199.2 134.06202)
+		(end 128.2 134.015)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "801f7ab1-ed33-4ad7-86ca-55c6e0cfaa32")
+	)
+	(gr_line
+		(start 123.7 129.515)
+		(end 123.7 64.79)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ef6e66c8-3657-4a38-ac32-c52eaa526a88")
-	)
-	(gr_curve
-		(pts
-			(xy 123.7 64.8) (xy 123.7 60.3) (xy 128.2 60.3) (xy 128.2 60.3)
-		)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f04a946d-dd5e-492a-8ab4-c0871f3071af")
+		(uuid "c018056d-98a6-4764-9611-570a71e9ca98")
 	)
 	(gr_line
-		(start 199.19 134.04)
-		(end 128.19 133.99298)
+		(start 199.2 60.29)
+		(end 128.2 60.29)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f0bab7ce-e7d1-40f2-bf9d-ccdd3fecae91")
-	)
-	(gr_curve
-		(pts
-			(xy 199.2 134.04) (xy 203.7 134.04) (xy 203.7 129.54) (xy 203.7 129.54)
-		)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f30fd684-6195-4020-a577-2808342b9cfd")
-	)
-	(gr_line
-		(start 199.2 60.3)
-		(end 128.2 60.3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f5e6d3c5-4ec6-4ae2-812b-203d3c580e68")
+		(uuid "d5e4b85a-8872-47f5-8134-10cdd1c1d426")
 	)
 	(gr_text "2.4 GHz Antenna"
 		(at 174.685 66.08 0)
@@ -34499,7 +34499,7 @@
 		)
 		(polygon
 			(pts
-				(xy 123.725 133.96) (xy 203.45 134.01) (xy 203.775 134.03) (xy 203.725 60.275) (xy 123.65 60.375)
+				(xy 123.725 134.01) (xy 203.468347 134.028347) (xy 203.775 134.03) (xy 203.725 60.275) (xy 123.65 60.26)
 			)
 		)
 	)

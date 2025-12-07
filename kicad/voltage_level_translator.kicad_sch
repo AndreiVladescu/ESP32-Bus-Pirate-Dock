@@ -4456,6 +4456,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 127) (xy 41.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922d1bf4-8d1f-4702-bb90-d934db8d6ff1")
+	)
+	(wire
+		(pts
 			(xy 261.62 58.42) (xy 266.7 58.42)
 		)
 		(stroke
@@ -4613,16 +4623,6 @@
 			(type default)
 		)
 		(uuid "bb0a6cfe-504b-4f0c-bf32-267a3c7d5062")
-	)
-	(wire
-		(pts
-			(xy 36.83 127) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6f6ad4-e04e-4a9f-81e2-b3429b5fdda4")
 	)
 	(wire
 		(pts
@@ -4984,16 +4984,6 @@
 		)
 		(uuid "099adb2e-c2ef-421f-9550-559a727e2e06")
 	)
-	(label "IO18_L"
-		(at 36.8095 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1497f15e-bed9-4b8b-b6fc-0fae62f95a82")
-	)
 	(label "IO13_H"
 		(at 266.7 135.89 0)
 		(effects
@@ -5034,6 +5024,16 @@
 		)
 		(uuid "26f061c0-7a1c-4501-b154-fe0fee5d6502")
 	)
+	(label "IO18_H"
+		(at 69.85 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27b6e400-53d9-460a-9601-6141b62949fd")
+	)
 	(label "D1_K"
 		(at 140.97 74.93 0)
 		(effects
@@ -5053,16 +5053,6 @@
 			(justify left bottom)
 		)
 		(uuid "330f39c9-aed6-430c-819f-83f9701a7982")
-	)
-	(label "IO18_H"
-		(at 69.8705 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33fbd2ea-6605-496c-9882-98d340928be4")
 	)
 	(label "IO11_H"
 		(at 69.85 55.88 0)
@@ -5313,6 +5303,16 @@
 			(justify left bottom)
 		)
 		(uuid "b06f03f1-2d70-4084-9606-9ebee5c48048")
+	)
+	(label "IO18_L"
+		(at 36.83 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6782cdb-b152-4c8d-92aa-1e1917d2bdd6")
 	)
 	(label "IO17_L"
 		(at 36.83 124.46 180)

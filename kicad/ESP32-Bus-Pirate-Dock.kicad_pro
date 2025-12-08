@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -136,8 +136,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1016,
-        "min_via_annular_width": 0.1016,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -237,7 +237,15 @@
           "drill": 0.254
         },
         {
-          "diameter": 0.5032,
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.5,
           "drill": 0.3
         },
         {

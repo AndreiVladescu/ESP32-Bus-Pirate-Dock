@@ -4036,6 +4036,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29eff92e-654c-4796-9bd0-3a61e31cdd47")
+	)
+	(wire
+		(pts
 			(xy 229.87 77.47) (xy 229.87 73.66)
 		)
 		(stroke
@@ -4313,6 +4323,16 @@
 			(type default)
 		)
 		(uuid "6de64db7-880a-4385-8032-deca953e8bb0")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.935) (xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6c6a4d-2b46-4909-84fa-67bc31cb18e5")
 	)
 	(wire
 		(pts
@@ -4706,6 +4726,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.815 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c1531c-cd9c-45e1-a3ec-6c770f3ed610")
+	)
+	(wire
+		(pts
 			(xy 234.95 120.65) (xy 236.22 120.65)
 		)
 		(stroke
@@ -4723,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "d5b7c8c9-51d1-4958-a4fc-3c32211afd4e")
+	)
+	(wire
+		(pts
+			(xy 43.815 38.735) (xy 43.815 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75196aa-9738-429a-a181-0f91d74ddf5c")
 	)
 	(wire
 		(pts
@@ -5134,7 +5174,7 @@
 		)
 		(uuid "5653ad68-37a0-4da5-9ed1-da903665e17a")
 	)
-	(label "N-GATE"
+	(label "GATE"
 		(at 157.48 74.93 0)
 		(effects
 			(font
@@ -6027,6 +6067,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 43.815 38.735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b82857b-29cc-4265-9e02-b61b7ab3dc97")
+		(property "Reference" "#PWR023"
+			(at 43.815 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 43.815 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.815 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.815 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 43.815 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e659302d-7330-4fcf-b071-afd5397cadb8")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 229.87 147.32 0)
 		(unit 1)
@@ -6296,6 +6402,72 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 39.37 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407a065f-b0e9-44d4-84ae-cd4e6df9d915")
+		(property "Reference" "#PWR012"
+			(at 39.37 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 39.37 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5133387-72dc-4fc0-b9eb-971f0edc75a1")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

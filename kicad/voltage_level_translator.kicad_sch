@@ -3747,7 +3747,7 @@
 		(uuid 5e6567ed-fb1a-4dd8-9af3-e0180226e811)
 	)
 	(rectangle
-		(start 19.05 100.875)
+		(start 19.05 104.14)
 		(end 96.375 179.875)
 		(stroke
 			(width 0)
@@ -3761,7 +3761,7 @@
 	)
 	(rectangle
 		(start 121.92 43.18)
-		(end 187.96 98.25)
+		(end 187.96 95.25)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3851,7 +3851,7 @@
 	)
 	(text "1.8V Voltage Translator"
 		(exclude_from_sim no)
-		(at 31.75 103.505 0)
+		(at 31.75 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4202,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 109.855) (xy 53.975 109.855)
+			(xy 48.26 112.395) (xy 53.34 112.395)
 		)
 		(stroke
 			(width 0)
@@ -4332,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 121.285) (xy 30.48 121.285)
+			(xy 25.4 123.19) (xy 30.48 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4452,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 109.855) (xy 38.1 109.855)
+			(xy 40.64 112.395) (xy 38.1 112.395)
 		)
 		(stroke
 			(width 0)
@@ -4642,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 109.855) (xy 38.1 116.205)
+			(xy 38.1 112.395) (xy 38.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4732,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 126.365) (xy 38.1 128.905)
+			(xy 38.1 128.27) (xy 38.1 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4812,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 172.72 80.01)
+			(xy 172.72 81.28) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5371,7 +5371,7 @@
 		(uuid "9dcdec11-c075-4ed2-8598-9db7e61ed258")
 	)
 	(label "SEL"
-		(at 25.4 121.285 180)
+		(at 25.4 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5421,7 +5421,7 @@
 		(uuid "bc7ad512-0059-433f-9bdf-1d5f5284f766")
 	)
 	(label "OE2"
-		(at 38.1 109.855 180)
+		(at 38.1 112.395 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5538,6 +5538,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5559,6 +5560,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5580,6 +5582,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5601,6 +5604,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5622,6 +5626,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5643,6 +5648,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5664,6 +5670,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5685,6 +5692,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5706,6 +5714,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5727,6 +5736,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5748,6 +5758,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5769,6 +5780,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5790,6 +5802,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5811,6 +5824,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5832,6 +5846,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5853,6 +5868,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5874,6 +5890,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5895,6 +5912,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5916,6 +5934,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -5937,6 +5956,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5958,6 +5978,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -5979,6 +6000,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -6000,6 +6022,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -6021,6 +6044,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -6042,6 +6066,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -6063,6 +6088,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -6076,7 +6102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e7d53c-16e4-45c2-8858-e352c1b3b33c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0105"
 			(at 248.92 87.63 0)
 			(effects
 				(font
@@ -6130,6 +6156,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6142,7 +6174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24403522-7a11-4d42-8391-54db2c665652")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0108"
 			(at 229.87 153.67 0)
 			(effects
 				(font
@@ -6196,6 +6228,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6208,7 +6246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a4f915-1244-4910-9ab5-c7eff1849695")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0118"
 			(at 64.135 132.08 0)
 			(effects
 				(font
@@ -6259,6 +6297,12 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6338,6 +6382,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6350,7 +6400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38c4e513-8323-49af-a84a-858916a6cc75")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0116"
 			(at 159.385 133.985 0)
 			(effects
 				(font
@@ -6405,6 +6455,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6417,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d13941-bc64-45c9-878f-640603966b95")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0115"
 			(at 159.385 123.825 0)
 			(effects
 				(font
@@ -6472,6 +6528,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6484,7 +6546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4577d8f6-d26a-4ba2-b5a5-6e2efa2dc1f3")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 58.0233 68.58 0)
 			(effects
 				(font
@@ -6596,6 +6658,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6608,7 +6676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49609ea8-e2fd-4a58-b8f7-8aafc3e2f443")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0121"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -6662,6 +6730,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6673,7 +6747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5281a315-e4e0-4854-a458-9c63bf73071b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0109"
 			(at 163.83 64.77 0)
 			(effects
 				(font
@@ -6728,20 +6802,25 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 38.1 128.905 0)
+		(at 38.1 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56d96b29-f769-4001-a107-1ef905ae64b3")
-		(property "Reference" "#PWR012"
-			(at 38.1 135.255 0)
+		(property "Reference" "#PWR0122"
+			(at 38.1 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 133.985 0)
+			(at 35.814 130.429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +6837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 128.905 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +6846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 128.905 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +6855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 38.1 128.905 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,6 +6873,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6806,7 +6891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a1b278e-62ee-46f3-8a20-081ea41ca4d7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0110"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -6861,6 +6946,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6872,7 +6963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c56a4d5-e395-425e-ba75-87f95440e13c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 155.448 66.04 90)
 			(effects
 				(font
@@ -6930,6 +7021,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6942,7 +7039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e33c59f-5c80-4109-a011-c152149185b0")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 61.1983 167.64 0)
 			(effects
 				(font
@@ -7054,6 +7151,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7066,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e537ec1-b52c-4db2-8c63-83182a0ff4e2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0107"
 			(at 248.92 157.48 0)
 			(effects
 				(font
@@ -7120,6 +7223,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7132,7 +7241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6439c8d3-a3e7-4e11-a351-6af862ccce6a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0120"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -7186,6 +7295,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7198,7 +7313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb90ce5-d3ab-4d07-bb9e-65f034bf7f0c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0112"
 			(at 147.955 93.345 0)
 			(effects
 				(font
@@ -7252,6 +7367,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7264,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ce3f9d5-ae0c-4d43-af5e-4d32b04df5b8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0103"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -7318,6 +7439,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7330,7 +7457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71ec5c19-2df2-48cc-9641-78bdedd8af81")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0101"
 			(at 231.14 38.1 0)
 			(effects
 				(font
@@ -7384,6 +7511,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7396,7 +7529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76541c68-0407-4f41-b56a-c186803b3c80")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0104"
 			(at 229.87 83.82 0)
 			(effects
 				(font
@@ -7450,6 +7583,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7462,7 +7601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7815334f-044a-4d9a-b99d-d84ef60cde5f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0106"
 			(at 248.92 101.6 0)
 			(effects
 				(font
@@ -7516,11 +7655,17 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 172.72 83.82 0)
+		(at 172.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7528,8 +7673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de66325-1385-4abf-9e1e-3f61a03e0ce5")
-		(property "Reference" "#PWR061"
-			(at 172.72 90.17 0)
+		(property "Reference" "#PWR0111"
+			(at 172.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 88.9 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 83.82 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 83.82 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 172.72 83.82 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,6 +7727,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7593,7 +7744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80d5212b-41ad-42b8-8bd4-4445794e57e8")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 175.514 56.896 0)
 			(effects
 				(font
@@ -7649,6 +7800,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7661,7 +7818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b3848c-5db5-4d9d-ba7c-c4b0fa07a84e")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 251.0633 100.33 0)
 			(effects
 				(font
@@ -7761,6 +7918,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7773,7 +7936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "891fbf54-ac71-4947-8d4a-e8ea302399b0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0119"
 			(at 59.055 176.53 0)
 			(effects
 				(font
@@ -7827,6 +7990,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7838,7 +8007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c34b175-dff3-4c67-8b22-7c96c75fa39f")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 153.67 72.39 90)
 			(effects
 				(font
@@ -7896,6 +8065,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7908,7 +8083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74a5f4f-a9a9-45ad-8171-92208f2a867b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0114"
 			(at 145.415 144.145 0)
 			(effects
 				(font
@@ -7963,6 +8138,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7974,7 +8155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aab11641-8957-46fa-9493-8c6dca32fb9b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0123"
 			(at 53.975 132.08 0)
 			(effects
 				(font
@@ -8028,27 +8209,24 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.085 109.855 270)
+		(at 44.45 112.395 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "acf1c395-30b7-4d49-9f90-5ef794ca7a8b")
-		(property "Reference" "R5"
-			(at 48.26 108.585 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
+		(property "Reference" "R1"
 			(at 47.625 111.125 90)
 			(effects
 				(font
@@ -8057,8 +8235,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100k"
+			(at 46.99 113.665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 45.085 108.077 90)
+			(at 44.45 110.617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.085 109.855 0)
+			(at 44.45 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8263,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.085 109.855 0)
+			(at 44.45 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,6 +8284,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8109,7 +8302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0671d01-b8e0-4885-a55a-9014eb9ac86e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0102"
 			(at 248.92 31.75 0)
 			(effects
 				(font
@@ -8160,6 +8353,12 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -8275,6 +8474,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8286,7 +8491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b601db29-2407-47dc-bcf4-951206de3184")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 175.514 73.152 0)
 			(effects
 				(font
@@ -8350,6 +8555,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8362,7 +8573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b652823c-27dd-47de-9309-f87b780ca0b7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0113"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -8417,6 +8628,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8428,7 +8645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6628b8e-6ff5-4ace-b275-372f4ad0ac1d")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 134.112 49.53 0)
 			(effects
 				(font
@@ -8490,6 +8707,12 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8562,6 +8785,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8573,7 +8802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c30cac62-931a-44c7-b789-b2efbb006f9f")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 228.092 27.178 90)
 			(effects
 				(font
@@ -8629,6 +8858,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8640,7 +8875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5379a01-7865-4f1a-8a10-ba1d60ca94c3")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 133.858 69.596 0)
 			(effects
 				(font
@@ -8702,6 +8937,12 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8921,6 +9162,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "S1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8932,7 +9179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce934078-0eaf-464a-9fdd-35d86d1c796b")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 155.448 55.88 90)
 			(effects
 				(font
@@ -8990,6 +9237,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9001,7 +9254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4a9c6ea-ca45-4ecb-a5c8-bce000cc83b3")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 228.092 97.028 90)
 			(effects
 				(font
@@ -9057,19 +9310,25 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 35.56 121.285 0)
+		(at 35.56 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e20d8fe4-f480-4dd7-b93b-5e7bea0196dd")
-		(property "Reference" "Q2"
-			(at 39.37 114.935 0)
+		(property "Reference" "Q1"
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9337,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 39.37 117.475 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9346,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 40.64 123.19 0)
+			(at 40.64 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 40.64 125.095 0)
+			(at 40.64 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9367,7 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 35.56 121.285 0)
+			(at 35.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,19 +9391,25 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 53.975 109.855 270)
+		(at 53.34 112.395 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e98e3031-1118-4e7b-9f9c-e39dd37fd331")
-		(property "Reference" "#PWR023"
-			(at 50.165 109.855 0)
+		(property "Reference" "#PWR0124"
+			(at 49.53 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9418,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 58.42 109.855 0)
+			(at 57.785 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +9426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.975 109.855 0)
+			(at 53.34 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +9435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.975 109.855 0)
+			(at 53.34 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 53.975 109.855 0)
+			(at 53.34 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,6 +9462,12 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9209,7 +9480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec90dc7f-b5bc-4fcc-95a9-aafdb9744d54")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0117"
 			(at 159.385 128.905 0)
 			(effects
 				(font
@@ -9264,6 +9535,18 @@
 					(unit 1)
 				)
 			)
+			(project "voltage_level_translator"
+				(path "/517f358b-f25c-4935-b180-fd387b8c0816"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -3836,6 +3836,18 @@
 		)
 		(uuid "584e7bd0-5d14-4d41-b185-4d6ade5b17e4")
 	)
+	(text "GATE = OE = !SEL"
+		(exclude_from_sim no)
+		(at 38.735 122.555 0)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1588)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "5eae6686-8017-424a-b208-81eeff29ca12")
+	)
 	(text "Multiplexer D1-D4"
 		(exclude_from_sim no)
 		(at 228.092 21.844 0)

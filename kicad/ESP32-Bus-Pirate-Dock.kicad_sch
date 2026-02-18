@@ -3897,8 +3897,8 @@
 		(uuid 4b17aab8-3bbb-4db3-9028-aa2649ff0aa6)
 	)
 	(rectangle
-		(start 96.425 18.04)
-		(end 195.3 97.415)
+		(start 93.885 18.04)
+		(end 194.31 97.415)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4078,7 +4078,7 @@
 		)
 		(uuid "8946f629-c707-48a0-83cf-28ac72f4218f")
 	)
-	(text "Unofficial Devkit \nHeader Location"
+	(text "Clone Devkit \nHeader Location"
 		(exclude_from_sim no)
 		(at 132.08 186.69 0)
 		(effects
@@ -4148,7 +4148,7 @@
 	)
 	(text "ESP32 S3 Devkit"
 		(exclude_from_sim no)
-		(at 111.125 21.59 0)
+		(at 108.712 21.59 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4158,6 +4158,17 @@
 			)
 		)
 		(uuid "e051260b-4d73-4244-83ee-d9022b0d8ae5")
+	)
+	(text "Supports both official and clone devkits"
+		(exclude_from_sim no)
+		(at 43.688 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "fc435d29-83c1-4ae6-aa52-7d61432d89e4")
 	)
 	(text "ESP32 Bus Pirate Dock"
 		(exclude_from_sim no)
@@ -4280,12 +4291,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d022ee3-dc00-4672-845f-8bb96d3d92c4")
-	)
-	(junction
-		(at 234.95 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fc08e7e-7f14-40ab-89a9-38cf2cb5b916")
 	)
 	(junction
 		(at 130.175 135.89)
@@ -4747,16 +4752,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 30.48) (xy 234.95 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06fb76ec-f320-4c00-aeb6-ae6b4d47e246")
-	)
-	(wire
-		(pts
 			(xy 57.15 55.88) (xy 54.61 55.88)
 		)
 		(stroke
@@ -4847,16 +4842,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 33.02) (xy 234.95 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3508b5-0d0c-4110-9257-04884df13070")
-	)
-	(wire
-		(pts
 			(xy 108.585 82.55) (xy 122.555 82.55)
 		)
 		(stroke
@@ -4924,6 +4909,16 @@
 			(type default)
 		)
 		(uuid "1fd381c3-c3d0-4e94-85df-314c7f21c6e2")
+	)
+	(wire
+		(pts
+			(xy 233.68 36.83) (xy 233.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2005adc6-9cc0-4d7a-b94a-a1a10620869a")
 	)
 	(wire
 		(pts
@@ -5207,7 +5202,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 30.48) (xy 234.95 30.48)
+			(xy 224.79 30.48) (xy 236.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5277,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 33.02) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efaa446-8531-42d7-9572-5b0337d4238a")
+	)
+	(wire
+		(pts
 			(xy 118.745 49.53) (xy 122.555 49.53)
 		)
 		(stroke
@@ -5334,16 +5339,6 @@
 			(type default)
 		)
 		(uuid "51d8ff28-b10e-4d3d-9f57-c35ee5e1f5bb")
-	)
-	(wire
-		(pts
-			(xy 234.95 33.02) (xy 236.22 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527b7fe4-3289-482d-8c97-d8ab7e53850d")
 	)
 	(wire
 		(pts
@@ -6981,6 +6976,27 @@
 		(uuid "3b7d6e29-65a5-446e-babd-a83f2d0a4001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.915 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 233.68 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b9a3ec3-3a2e-490b-be51-66830e48bd51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 43.2623 90)
 			(effects
 				(font
 					(size 1.27 1.27)

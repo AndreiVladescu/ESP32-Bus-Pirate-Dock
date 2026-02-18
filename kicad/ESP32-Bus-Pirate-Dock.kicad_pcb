@@ -26461,5 +26461,12 @@
 			)
 		)
 	)
+	(group ""
+		(uuid "8c0ee947-dfc9-47c8-9443-01bf13cefc41")
+		(members "4c77c095-833a-4d3e-baa3-fb3cab2d7d92" "55c614c9-7864-45f0-b4a4-144a5720d3a1"
+			"5edcc7c3-7f6d-4b5c-bcf4-520907baf02d" "9a22f44d-b7e5-4d87-b1a4-721fee64f79a"
+			"e97cb781-c3c9-4087-877d-a1f5e0eaec51"
+		)
+	)
 	(embedded_fonts no)
 )

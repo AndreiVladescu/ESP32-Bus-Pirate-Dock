@@ -4039,6 +4039,20 @@
 		)
 		(uuid "157a50f5-e2cd-4924-9e99-6ee89f788a12")
 	)
+	(text "${BOARD_VER}"
+		(exclude_from_sim no)
+		(at 275.336 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(href "#1")
+		)
+		(uuid "36e93576-7e08-470c-b735-50eb689c12be")
+	)
 	(text "1.8V LDO Regulator"
 		(exclude_from_sim no)
 		(at 228.346 19.812 0)

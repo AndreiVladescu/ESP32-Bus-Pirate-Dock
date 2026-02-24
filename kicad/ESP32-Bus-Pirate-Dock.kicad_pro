@@ -698,5 +698,7 @@
       "Voltage Level Translator"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_VER": "1.2"
+  }
 }

@@ -5920,16 +5920,6 @@
 		)
 		(uuid "9de840d6-99c7-4393-9cde-cc5466c3a388")
 	)
-	(label "SEL"
-		(at 71.12 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9642708-c469-4be0-b53e-e9f7c5cb088b")
-	)
 	(label "IO16_L"
 		(at 266.7 48.26 0)
 		(effects
@@ -5959,6 +5949,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6782cdb-b152-4c8d-92aa-1e1917d2bdd6")
+	)
+	(label "~{SEL}"
+		(at 71.12 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e411f8-bbc8-47ef-b92d-8bf9cc5c8dc6")
 	)
 	(label "IO17_L"
 		(at 43.18 154.94 180)

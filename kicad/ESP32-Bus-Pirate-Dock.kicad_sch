@@ -3872,7 +3872,7 @@
 	)
 	(rectangle
 		(start 25.17 120.595)
-		(end 42.045 190.97)
+		(end 42.045 189.992)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3937,7 +3937,7 @@
 	)
 	(rectangle
 		(start 42.045 120.595)
-		(end 58.92 190.97)
+		(end 58.92 189.992)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4105,7 +4105,7 @@
 	)
 	(text "Expansion\nHeader"
 		(exclude_from_sim no)
-		(at 52.07 187.325 0)
+		(at 50.546 187.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4151,7 @@
 	)
 	(text "Devkit \nHeader Location"
 		(exclude_from_sim no)
-		(at 33.655 187.325 0)
+		(at 33.782 187.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)

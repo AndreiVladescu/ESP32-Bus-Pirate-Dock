@@ -9612,7 +9612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2SK2009"
 			(at 170.434 69.342 0)
 			(effects
 				(font

@@ -69,6 +69,13 @@ To inspect or modify the design, use the original KiCad source files in `dock/ki
 
 To source components, use `dock/BOM.csv`.
 
+## Case Design
+
+The case for the ESP32 Bus Pirate Dock is still a work in progress. The current design uses two pieces, which can be printed using an FDM printer with
+a 0.4 nozzle.
+
+![Case 3D Model](images/3d_model.png)
+
 ## License
 
 Hardware design files in this repository are licensed under the CERN-OHL-W-2.0 license.

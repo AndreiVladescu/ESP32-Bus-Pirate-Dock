@@ -61,5 +61,8 @@ To source components, use `dock/BOM.csv`.
 ## License
 
 Hardware design files in this repository are licensed under the CERN-OHL-W-2.0 license.
-
 See [LICENSE](LICENSE) for the full license text.
+
+Documentation and images in this repository are licensed under CC BY 4.0 unless otherwise noted.
+
+Any third-party trademarks, datasheets, and separately licensed materials remain the property of their respective owners.

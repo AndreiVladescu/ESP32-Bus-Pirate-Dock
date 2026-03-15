@@ -12,6 +12,16 @@ The design is intended to work with original ESP32-S3-DevKitC-1, as well as the 
 
 Current hardware revision: V3
 
+The markings on the PCB for the serial number `V0-YYWW-XXXXX` are as follows: 
+- version `0`
+- year and week number when these PCBs were produced
+- incrementing number of the current batch
+
+An example PCB with these markings would be `V3-2613-00512`, where:
+- version number is `3`
+- the year is `2026`, and the week is `13`
+- this is the `512th` PCB made in that respective week
+
 ## Repository contents
 
 - `dock/kicad/` — KiCad design files

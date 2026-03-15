@@ -18,6 +18,7 @@ Current hardware revision: V3
 - `dock/gerbers/` — PCB fabrication outputs
 - `dock/schematic.pdf` — exported schematic reference
 - `dock/BOM.csv` — bill of materials
+- `3d_models/` — 3D models for the dock and a WIP case
 - `images/` — presentation images
 
 ## Open-source scope

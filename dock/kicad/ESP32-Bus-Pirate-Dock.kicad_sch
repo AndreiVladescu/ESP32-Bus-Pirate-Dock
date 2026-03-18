@@ -4066,6 +4066,17 @@
 		)
 		(uuid "5244bad6-08e0-4747-b7df-794886fcc4e1")
 	)
+	(text "TS-1002S-07026C"
+		(exclude_from_sim no)
+		(at 32.258 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "62f5de2b-9735-476e-bd5b-ccd589f7688c")
+	)
 	(text "Bus Pirate Connector"
 		(exclude_from_sim no)
 		(at 33.02 20.32 0)

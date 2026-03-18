@@ -140,7 +140,7 @@
 			(outputdirectory "/home/admin-andrei/Downloads/esp32_bus_pirate_dock_outputs/")
 		)
 	)
-	(property "BOARD_VER" "1.2")
+	(property "BOARD_VER" "3")
 	(net 0 "")
 	(net 1 "+5V")
 	(net 2 "GPIO10")
@@ -269,6 +269,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C455114"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc312857-1c22-4491-bae3-b690d9c45a42")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -800,6 +813,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dafb6bd-2dd7-4744-96bf-2a3a1237b8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/e5abb5c0-26d6-483d-8d6f-902bc32368ae")
 		(sheetname "/Voltage Level Translator/")
@@ -937,6 +963,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da62dc3f-b0d6-47a4-bae2-07e2da07fe5e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1136,6 +1175,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C20607181"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9112a03-a923-4bfc-82aa-97d8da43d6c9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1566,6 +1618,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e46d547a-3b63-451e-9844-a8a78a95151b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2173,6 +2238,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C7499337"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b49ed4b-6865-4820-ba1d-5e21c92be2bd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2888,6 +2966,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C725954"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36cfec78-c513-4adf-bb8d-05d0bb3a3e2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50e36416-c95c-490d-9129-2ebe1071d53b")
 		(sheetname "/")
@@ -3359,6 +3450,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C725954"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62e4b663-9a55-45a7-b6a1-436d82da0607")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4180,6 +4284,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2877863"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dde5c97-bf97-4fa4-b7ee-69e1acf17451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/084b7802-75e3-4a8e-b8de-4e817ff40943")
 		(sheetname "/")
@@ -4665,7 +4782,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 1.1 -2.05 180)
+			(at 1.1 -2.05 0)
 			(layer "F.SilkS")
 			(uuid "1ac5f202-d266-43cb-90d6-2914f373ce07")
 			(effects
@@ -4706,6 +4823,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1779"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc236d38-5ad9-4c3a-b910-cee634440226")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4910,6 +5040,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a8aedd4-e67e-49fb-9a69-82df12c2b097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C42428253"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb8a6d1-2b3f-4e04-a285-8cb4b8bd0e37")
 			(effects
 				(font
 					(size 1 1)
@@ -5156,7 +5299,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "2SK2009"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5188,6 +5331,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C4153760"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f87a7ec0-4c9c-4007-a29a-cb7da309f489")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5513,6 +5669,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C103913"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19cdb3d-6b3a-4ed2-b8ef-0b3becec21d7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5950,6 +6119,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C7499337"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6436c2b7-3552-462e-8272-a4e3e9872931")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6427,6 +6609,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2075508"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f2ac7c-a100-43e2-ba79-66c457ea3780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/0b5ad1cf-69a0-4f5e-b5ee-393d21fd3acb")
 		(sheetname "/Voltage Level Translator/")
@@ -6565,6 +6760,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C103913"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b99748a1-ae9b-4041-a222-1e957c3871af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6769,6 +6977,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C103913"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d7670bc-4d3b-4db2-a694-8b40b428e08c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/5c56a4d5-e395-425e-ba75-87f95440e13c")
 		(sheetname "/Voltage Level Translator/")
@@ -6964,6 +7185,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beea32d5-f66f-4a12-8d1e-895061eb7dca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9164,7 +9398,7 @@
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U7"
-			(at 4.7375 1.5 180)
+			(at 4.7375 1.5 0)
 			(layer "F.SilkS")
 			(uuid "0e4cd277-4d43-415b-ae8d-75b47e8ded2b")
 			(effects
@@ -9206,6 +9440,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2673443"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8deb5c79-b27d-48ac-8544-5988a673251b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9616,6 +9863,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2075508"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c105f3c1-7937-42b3-b2bd-98b3b74aa427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/bc25963b-9642-47d1-8052-94786c247d04")
 		(sheetname "/Voltage Level Translator/")
@@ -9812,6 +10072,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2673443"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "993e498a-1fc9-4793-aa84-817ce888e5cd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10813,6 +11086,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff92e56f-8ecb-4b02-b2e1-a0604889e120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*SSOP*4.4x6.5mm*P0.65mm*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/5e33c59f-5c80-4109-a011-c152149185b0")
 		(sheetname "/Voltage Level Translator/")
@@ -11258,6 +11544,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1779"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9248a998-b380-4a02-a33d-3ca5da17789c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/c30cac62-931a-44c7-b789-b2efbb006f9f")
 		(sheetname "/Voltage Level Translator/")
@@ -11396,6 +11695,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C17206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "551b232f-c58d-4fe2-bb04-5cf3f7606ec3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11962,6 +12274,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41c914ed-ef3d-492c-83e0-c552e32e422d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/410039d2-6477-43e9-9727-37ecd3156f20")
 		(sheetname "/")
@@ -12159,6 +12484,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C225518"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a56aaf-9da6-4b80-bdae-c3808b8177a9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12480,6 +12818,19 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2169721"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "292ed1ea-2b2c-4397-9143-891ae4790610")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e83f8d5-a547-42b8-8426-b71a9f8b331b/aa6cecdc-43bd-4f62-8ef5-be7788b9eaea")
 		(sheetname "/Voltage Level Translator/")
@@ -12619,6 +12970,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C7499337"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d78d3b8-a26f-44e9-b9c3-ec662ebe44e4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31826,17 +32190,6 @@
 		(members "4c77c095-833a-4d3e-baa3-fb3cab2d7d92" "55c614c9-7864-45f0-b4a4-144a5720d3a1"
 			"5edcc7c3-7f6d-4b5c-bcf4-520907baf02d" "9a22f44d-b7e5-4d87-b1a4-721fee64f79a"
 			"e97cb781-c3c9-4087-877d-a1f5e0eaec51"
-		)
-	)
-	(group ""
-		(uuid "659346ff-40cf-4acc-b0b3-0f1bf1d37665")
-		(members "1e57a7e3-1e07-4a55-8f29-cdc1ffebce49" "1e90f0a2-6adc-4191-b67f-fc2682539847"
-			"3407d51f-f8d8-4f55-addc-fea48ca78765" "3d7354ab-59c3-464a-b2ad-9cbd436b6f84"
-			"45af76a4-7296-45a1-a329-ae58af61dd88" "4e0e314a-c74a-4fac-bf68-e9c0c7ce9140"
-			"60159676-c329-48e0-8230-120c36beda97" "6f9e5d53-f1a2-469d-9dff-b4553cb8336b"
-			"860d3c24-f25f-4feb-9054-6815a97c655f" "9352c6b2-b84a-44ba-8ad6-095167a8fe6a"
-			"a998b62e-dd54-4840-af1c-a6e2b6289d06" "b2c425b9-6a56-4680-81f1-4724ad61f4fe"
-			"df7b57b3-fdb8-4406-a44d-fc05675372da" "e10b1472-8364-4309-a048-a557e4cda582"
 		)
 	)
 	(embedded_fonts no)

@@ -272,6 +272,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
@@ -4498,12 +4605,6 @@
 		(uuid "abe600a9-44ff-4f80-8170-f68ed146f448")
 	)
 	(junction
-		(at 54.61 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af35f0eb-9d9a-4ce7-9e02-7ef3fede6156")
-	)
-	(junction
 		(at 111.76 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4586,6 +4687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8d4ed43-3073-4eda-a78e-e23c7362e4aa")
+	)
+	(junction
+		(at 54.61 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f7330d-1c18-4e37-a22b-244bcf11c8c0")
 	)
 	(junction
 		(at 111.76 156.21)
@@ -4774,16 +4881,6 @@
 			(type default)
 		)
 		(uuid "05cf2fd1-4d2e-4dc7-a1ac-241ee36f8c65")
-	)
-	(wire
-		(pts
-			(xy 57.15 55.88) (xy 54.61 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081cd2d6-7566-49ae-a406-1004c6f82e4a")
 	)
 	(wire
 		(pts
@@ -5747,6 +5844,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 121.92) (xy 182.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88476f1a-8821-4055-9993-2431ec05bbe7")
+	)
+	(wire
+		(pts
 			(xy 111.76 173.99) (xy 130.175 173.99)
 		)
 		(stroke
@@ -6107,6 +6214,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5150003-73b4-45e0-abdc-179300cbf6c2")
+	)
+	(wire
+		(pts
 			(xy 108.585 52.07) (xy 122.555 52.07)
 		)
 		(stroke
@@ -6124,6 +6241,16 @@
 			(type default)
 		)
 		(uuid "b78b9d3c-f532-40e9-941c-f558da66fa78")
+	)
+	(wire
+		(pts
+			(xy 220.98 113.03) (xy 220.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f426dd-e844-4f82-b4cb-b714398f6e6f")
 	)
 	(wire
 		(pts
@@ -6647,6 +6774,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 113.03) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d224de-5212-4823-8eee-8bde24b53958")
+	)
+	(wire
+		(pts
 			(xy 95.25 148.59) (xy 111.76 148.59)
 		)
 		(stroke
@@ -6704,6 +6841,16 @@
 			(type default)
 		)
 		(uuid "f84f8621-f89a-4393-a010-a9e76aadd757")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 208.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb559906-2b11-4580-a269-ba664dee0524")
 	)
 	(wire
 		(pts
@@ -8501,6 +8648,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "055f44e3-aaab-4dec-a47a-f6523668371a")
+		(property "Reference" "#PWR055"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 108.8969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b8b7f0-233f-454b-91c4-03dccab95e26")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV75518PDBV")
 		(at 243.84 33.02 0)
 		(unit 1)
@@ -8841,6 +9054,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 182.88 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c373117-552d-4991-8144-b7cc9a5009ba")
+		(property "Reference" "#PWR057"
+			(at 182.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 128.5931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6536a76b-a509-4ef2-8423-50ac75020440")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 257.81 116.84 0)
 		(unit 1)
@@ -8965,6 +9244,73 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 195.58 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d4bd99-64fc-4b5a-af44-3b735a07cef9")
+		(property "Reference" "TP3"
+			(at 196.977 117.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.977 120.0841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28f7a04-43e8-485a-ae5f-56cc0e5c9be6")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10210,6 +10556,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efbdefe-574e-4677-ad13-0a6de1134d70")
+		(property "Reference" "TP4"
+			(at 184.277 117.4058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.277 119.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff086597-1fb4-490a-a654-cab3e3d165cd")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 255.27 34.29 0)
 		(unit 1)
@@ -10420,6 +10833,73 @@
 			(project ""
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cdfdfa2-c425-4483-bd39-641ed69de993")
+		(property "Reference" "TP2"
+			(at 222.377 117.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 222.377 120.0841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c189014a-8a99-440e-b069-150611ff8873")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11214,6 +11694,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 220.98 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b99a1481-9ee3-4213-a111-9166f2784ae2")
+		(property "Reference" "#PWR054"
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 220.218 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e98bcc-b38f-455e-9300-95c65beb7ab1")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 101.6 127 180)
 		(unit 1)
@@ -11705,8 +12250,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 49.53 43.18 0)
-		(mirror y)
+		(at 49.53 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11714,7 +12258,7 @@
 		(dnp no)
 		(uuid "edecbaa7-0b4b-4320-b538-c0d875582d44")
 		(property "Reference" "J3"
-			(at 53.34 26.67 0)
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +12267,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10V"
-			(at 57.404 28.956 0)
+			(at 57.404 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +12276,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-			(at 49.53 43.18 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +12285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 43.18 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +12294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 43.18 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11791,6 +12335,139 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef07be9-7705-416f-9243-b16647d5e064")
+		(property "Reference" "TP1"
+			(at 209.677 117.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 209.677 120.0841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c166b0be-f3cb-47ff-8c36-afaa05ccf60f")
+		)
+		(instances
+			(project ""
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8ef1adc-bb99-4394-8641-b000f1f7f428")
+		(property "Reference" "#PWR056"
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 195.58 108.8969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b9f44e-822c-48d7-bebd-1fa4a191711b")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)

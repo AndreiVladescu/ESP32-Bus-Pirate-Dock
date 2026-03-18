@@ -1489,6 +1489,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4702,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 166.37) (xy 125.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6063a844-bcf5-4760-9f00-5e9e282b816c")
+	)
+	(wire
+		(pts
 			(xy 55.88 45.72) (xy 57.15 45.72)
 		)
 		(stroke
@@ -4789,6 +4906,16 @@
 			(type default)
 		)
 		(uuid "72d02882-3325-4218-87be-55fedd54c0a7")
+	)
+	(wire
+		(pts
+			(xy 116.84 161.29) (xy 125.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7887129f-eb43-4e0b-818b-0e47ce3a8044")
 	)
 	(wire
 		(pts
@@ -5592,6 +5719,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 156.21) (xy 125.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff24c3ed-499d-4154-aa8e-d9b6ac3f520c")
+	)
+	(wire
+		(pts
 			(xy 127 68.58) (xy 128.27 68.58)
 		)
 		(stroke
@@ -5639,6 +5776,16 @@
 			(justify left bottom)
 		)
 		(uuid "15847759-b599-43a5-ae63-a239cda3e2ec")
+	)
+	(label "~{SEL}"
+		(at 116.84 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17db15f4-eff4-4cd8-ba30-71b21a3718f5")
 	)
 	(label "IO17_H"
 		(at 266.6795 58.42 0)
@@ -6070,6 +6217,16 @@
 		)
 		(uuid "e382d997-b194-4860-89fc-e6f52c2f20af")
 	)
+	(label "VTARGET"
+		(at 116.84 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e606a27d-a5fa-4197-9718-7405df06c340")
+	)
 	(label "~{SEL}"
 		(at 167.64 60.96 0)
 		(effects
@@ -6099,6 +6256,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc84490f-605d-468c-ac68-2d8094b1f704")
+	)
+	(label "SEL"
+		(at 116.84 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc8acda6-4c40-4b91-9bb4-ff97ea20a8d2")
 	)
 	(global_label "GPIO10"
 		(shape input)
@@ -9819,6 +9986,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baad47f8-2331-4b77-8f28-bf1c598c11c4")
+		(property "Reference" "TP5"
+			(at 130.429 154.9978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VTARGET"
+			(at 130.429 157.4221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da076142-0c3e-4949-83fc-acdd0a749d92")
+		)
+		(instances
+			(project ""
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 74.93 270)
 		(unit 1)
@@ -10397,6 +10631,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c5cbf2-5e8f-456a-97cb-706f67ca88f1")
+		(property "Reference" "TP7"
+			(at 130.429 165.0123 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{SEL}"
+			(at 130.429 167.5821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 125.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91e14b58-2648-4772-8a18-b10249ba3f26")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 162.56 123.19 270)
 		(unit 1)
@@ -10595,6 +10896,73 @@
 			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f322ffa3-f28f-4e8a-9590-51cc12059e3a")
+		(property "Reference" "TP6"
+			(at 130.429 160.0778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SEL"
+			(at 130.429 162.5021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "357e000d-9b15-4ac8-aae1-e751462f21b8")
+		)
+		(instances
+			(project "ESP32-Bus-Pirate-Dock"
+				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

@@ -6544,7 +6544,7 @@
 		)
 		(uuid "54bd3a22-da47-420a-aeef-26d6be15ad9d")
 	)
-	(label "VTARGET"
+	(label "VIO"
 		(at 138.684 162.814 270)
 		(effects
 			(font
@@ -6864,7 +6864,7 @@
 		)
 		(uuid "e382d997-b194-4860-89fc-e6f52c2f20af")
 	)
-	(label "VTARGET"
+	(label "VIO"
 		(at 117.348 185.674 90)
 		(effects
 			(font
@@ -7008,7 +7008,7 @@
 			)
 		)
 	)
-	(global_label "VTARGET"
+	(global_label "VIO"
 		(shape input)
 		(at 36.83 69.85 0)
 		(fields_autoplaced yes)
@@ -7020,7 +7020,7 @@
 		)
 		(uuid "4a1f9b91-09dd-4c72-8975-3d28983f042b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6166 69.85 0)
+			(at 42.8391 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7344,7 @@
 			)
 		)
 	)
-	(global_label "VTARGET"
+	(global_label "VIO"
 		(shape input)
 		(at 40.64 107.95 180)
 		(fields_autoplaced yes)
@@ -7356,7 +7356,7 @@
 		)
 		(uuid "cc8fdc47-a064-417a-be42-9f71c7c2d29f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.8534 107.95 0)
+			(at 34.6309 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7365,7 @@
 			)
 		)
 	)
-	(global_label "VTARGET"
+	(global_label "VIO"
 		(shape input)
 		(at 166.116 112.776 0)
 		(fields_autoplaced yes)
@@ -7377,7 +7377,7 @@
 		)
 		(uuid "ceae2162-cbda-4f44-8f50-0d4d5565a8eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9026 112.776 0)
+			(at 172.1251 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,8 +11279,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VTARGET"
-			(at 108.712 173.736 0)
+		(property "Value" "VIO"
+			(at 113.03 173.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)

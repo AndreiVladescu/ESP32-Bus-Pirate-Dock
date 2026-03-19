@@ -7051,7 +7051,7 @@
 			)
 		)
 	)
-	(global_label "VTARGET"
+	(global_label "VIO"
 		(shape input)
 		(at 60.96 58.42 0)
 		(fields_autoplaced yes)
@@ -7063,7 +7063,7 @@
 		)
 		(uuid "42e78a0f-1ea2-4fea-b45c-a59d43bc53f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.7466 58.42 0)
+			(at 66.9691 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

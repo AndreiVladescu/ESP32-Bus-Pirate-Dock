@@ -4,6 +4,8 @@ Open-source carrier board for the Espressif ESP32-S3 DevKit, designed to complem
 
 ## Overview
 
+![PCB Top](images/certification-mark-RO000031-wide.svg)
+
 ESP32-Bus-Pirate-Dock is a hardware dock/carrier board for the ESP32-S3 DevKit. It provides level and voltage translation between the 3.3V ESP32-S3 and external peripherals, with support for 1.8V, 3.3V, and 5V operation.
 
 The design is intended to work with original ESP32-S3-DevKitC-1, as well as the wider devkit clones from third party suppliers.

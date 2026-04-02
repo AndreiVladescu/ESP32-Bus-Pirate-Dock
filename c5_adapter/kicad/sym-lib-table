@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TLV6700DDCR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TLV6700DDCR/TLV6700DDCR.kicad_sym")(options "")(descr ""))
+)

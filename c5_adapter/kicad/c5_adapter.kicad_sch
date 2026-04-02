@@ -1607,6 +1607,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLV6700DDCR:TLV6700DDCR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TLV6700DDCR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X110-6N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tlv6700"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TLV6700 Micropower, 18V Window Comparator with 400mV Reference"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLV6700DDCR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV6700DDCR?qs=r5DSvlrkXmIgfUTYRQlC3A%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV6700DDCR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TLV6700DDCR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "INA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "INB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1996,10 +2220,6 @@
 		)
 	)
 	(no_connect
-		(at 137.16 55.88)
-		(uuid "63349a58-a45e-47c8-b51f-564a5b88eb84")
-	)
-	(no_connect
 		(at 69.85 36.83)
 		(uuid "739a791b-f986-425b-aa1a-9f1b00ee8029")
 	)
@@ -2199,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e89112-9859-4703-bcfc-7f9e26f33922")
+	)
+	(wire
+		(pts
 			(xy 55.88 73.66) (xy 64.77 73.66)
 		)
 		(stroke
@@ -2299,6 +2529,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 133.35 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad3951ba-9677-41a0-83e5-1aa3fa859ce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9177 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2789,6 +3041,138 @@
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV6700DDCR:TLV6700DDCR")
+		(at 81.28 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db23f96-5360-43ba-b5c1-5e92b514a14d")
+		(property "Reference" "IC1"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV6700DDCR"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLV6700DDCR:SOT95P280X110-6N"
+			(at 105.41 144.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv6700"
+			(at 105.41 244.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TLV6700 Micropower, 18V Window Comparator with 400mV Reference"
+			(at 81.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 105.41 444.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV6700DDCR"
+			(at 105.41 544.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV6700DDCR?qs=r5DSvlrkXmIgfUTYRQlC3A%3D%3D"
+			(at 105.41 644.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 105.41 744.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV6700DDCR"
+			(at 105.41 844.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec686b03-9c45-458c-9822-fb5ef1c0ee3d")
+		)
+		(pin "4"
+			(uuid "d584ae84-1a82-4a17-bba2-5ba134d8348b")
+		)
+		(pin "5"
+			(uuid "d5346d37-43b9-4596-b69a-fc51fdba08fa")
+		)
+		(pin "6"
+			(uuid "ae79e2ee-b15b-4d3f-b0f9-65284b6e6adc")
+		)
+		(pin "2"
+			(uuid "a3c6b904-c5aa-4d09-ba98-214af51111a6")
+		)
+		(pin "1"
+			(uuid "64e5198b-ae59-4e55-b399-0b1c58483760")
+		)
+		(instances
+			(project "c5_adapter"
+				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3540,7 +3924,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "62fbad6d-0301-483c-bc69-26b511fae167")
+			(uuid "62fbad6d-0301-483c-bc69-26b511fae168")
 		)
 		(pin "1"
 			(uuid "a392002a-4576-492e-9a59-3cb441fd3f56")
@@ -3552,10 +3936,10 @@
 			(uuid "6ba8d971-3637-4369-a551-29680e5b3f00")
 		)
 		(pin "4"
-			(uuid "e8b253f1-a061-44d4-b5b4-595a9bd64c3b")
+			(uuid "e8b253f1-a061-44d4-b5b4-595a9bd64c3c")
 		)
 		(pin "5"
-			(uuid "079ce1f3-5137-4169-8b39-cdcdd1d0c1df")
+			(uuid "079ce1f3-5137-4169-8b39-cdcdd1d0c1e0")
 		)
 		(instances
 			(project "c5_adapter"

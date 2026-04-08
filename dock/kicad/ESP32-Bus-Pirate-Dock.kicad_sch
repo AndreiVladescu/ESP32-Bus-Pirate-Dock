@@ -3857,6 +3857,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 251.206 72.644)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 132 0 1)
+		)
+		(uuid 0b06b44a-0189-4720-826a-4d51a415e702)
+	)
 	(rectangle
 		(start 20.355 17.35)
 		(end 79.73 64.975)
@@ -3895,6 +3909,20 @@
 			(type none)
 		)
 		(uuid 4b17aab8-3bbb-4db3-9028-aa2649ff0aa6)
+	)
+	(circle
+		(center 251.968 69.088)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 132 0 1)
+		)
+		(uuid 50c1da31-463a-4875-8b7a-c906f783afdc)
 	)
 	(rectangle
 		(start 93.885 18.04)
@@ -3947,6 +3975,34 @@
 			(type none)
 		)
 		(uuid 92004f6c-356f-4ab3-a639-d98d608b2835)
+	)
+	(circle
+		(center 251.206 76.2)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 132 0 1)
+		)
+		(uuid 970687c2-7900-4511-bd35-da4aaa4dfe6f)
+	)
+	(circle
+		(center 251.206 69.088)
+		(radius 0.254)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 132 0 1)
+		)
+		(uuid a53c6f35-7f8a-4c83-9c0d-738090af4d8f)
 	)
 	(rectangle
 		(start 235.87 138.98)
@@ -4013,6 +4069,19 @@
 		)
 		(uuid e9bc6e04-23c1-40b3-8c3d-66ff03ebc3e8)
 	)
+	(rectangle
+		(start 247.904 68.072)
+		(end 257.81 77.216)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 72 72 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ff479835-29f4-45bb-8c6a-178b71ca4eae)
+	)
 	(text "Boot Switch"
 		(exclude_from_sim no)
 		(at 29.21 81.915 0)
@@ -4026,9 +4095,9 @@
 		)
 		(uuid "001f7962-113e-46fa-b77b-d3a5f5ac92c1")
 	)
-	(text "Mounting Holes"
+	(text "M3 Mounting Holes"
 		(exclude_from_sim no)
-		(at 262.763 98.425 0)
+		(at 264.922 98.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,9 +4146,9 @@
 		)
 		(uuid "62f5de2b-9735-476e-bd5b-ccd589f7688c")
 	)
-	(text "Bus Pirate Connector"
+	(text "1x10 2.54mm connectors"
 		(exclude_from_sim no)
-		(at 33.02 20.32 0)
+		(at 35.052 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4171,6 +4240,28 @@
 		)
 		(uuid "acf0a2bf-c18a-4a56-89d8-e5330bbc88f1")
 	)
+	(text "5V0"
+		(exclude_from_sim no)
+		(at 243.332 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "b8ba2ec2-d189-4de3-b361-c81f80f3eb63")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 243.332 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "cdf30ab3-9ce8-4669-b126-9c72b61f28e3")
+	)
 	(text "ESP32 S3 Devkit"
 		(exclude_from_sim no)
 		(at 108.712 21.59 0)
@@ -4183,6 +4274,28 @@
 			)
 		)
 		(uuid "e051260b-4d73-4244-83ee-d9022b0d8ae5")
+	)
+	(text "1V8"
+		(exclude_from_sim no)
+		(at 243.332 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "e749461e-0683-4b1c-8925-0b34a6b5a982")
+	)
+	(text "V_{IO}"
+		(exclude_from_sim no)
+		(at 264.16 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 0 1)
+			)
+		)
+		(uuid "fad55ebd-80fd-4ec3-8bb4-7dab2e42fa08")
 	)
 	(text "Supports both official and clone devkits"
 		(exclude_from_sim no)
@@ -4845,6 +4958,17 @@
 		)
 		(uuid "113b9309-e0f5-4c26-b872-035a8c3e7268")
 	)
+	(polyline
+		(pts
+			(xy 254.254 70.866) (xy 256.54 72.644)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "135cc19d-641d-4ae3-8dd6-12ee1b24eb71")
+	)
 	(wire
 		(pts
 			(xy 54.61 45.72) (xy 57.15 45.72)
@@ -5215,6 +5339,17 @@
 		)
 		(uuid "4453adc3-15f7-4db6-bcc6-ca4df4496b6f")
 	)
+	(polyline
+		(pts
+			(xy 251.968 69.088) (xy 254.254 70.866)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "44d62b87-e409-4b9a-88f1-edbdaca623f6")
+	)
 	(wire
 		(pts
 			(xy 224.79 30.48) (xy 236.22 30.48)
@@ -5424,6 +5559,17 @@
 			(type default)
 		)
 		(uuid "55f695ca-7bc4-4d9f-ab81-0403d433080e")
+	)
+	(polyline
+		(pts
+			(xy 245.872 76.2) (xy 251.206 76.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "56c95050-88fb-49d9-9503-69163f2574d9")
 	)
 	(wire
 		(pts
@@ -5704,6 +5850,28 @@
 			(type default)
 		)
 		(uuid "79c1054b-1b96-44e2-9aa1-e0c847cb5db9")
+	)
+	(polyline
+		(pts
+			(xy 246.126 69.088) (xy 251.206 69.088)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "7cd668d8-dbe5-4221-86c7-4c8a8383aeed")
+	)
+	(polyline
+		(pts
+			(xy 245.872 72.644) (xy 251.206 72.644)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "7e8a4f2f-0fd4-46cc-bd6c-412cb4b09637")
 	)
 	(wire
 		(pts
@@ -6175,6 +6343,17 @@
 		)
 		(uuid "bebced8c-e7c9-4f47-9150-d176c1ba9a5d")
 	)
+	(polyline
+		(pts
+			(xy 251.968 69.088) (xy 254.254 70.866)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "bfd3aeda-c007-4c9d-b917-3a1f45791ed7")
+	)
 	(wire
 		(pts
 			(xy 53.975 151.13) (xy 71.12 151.13)
@@ -6264,6 +6443,17 @@
 			(type default)
 		)
 		(uuid "c2cc0472-112c-4ad3-b3d3-18351f2bc1c3")
+	)
+	(polyline
+		(pts
+			(xy 256.54 72.644) (xy 262.382 72.644)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 132 0 1)
+		)
+		(uuid "c5149d08-9dad-4788-ad43-b9c6043ded1f")
 	)
 	(wire
 		(pts
@@ -8500,6 +8690,173 @@
 			)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 56.642 55.118) (xy 72.898 55.118) (xy 72.898 33.782) (xy 56.642 33.782) (xy 56.642 34.29)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e2581e20-38b9-4bc9-8100-651b598face8)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ef80687-455e-4653-a9ca-89638abbad62")
+		(property "Netclass" "PWR"
+			(at 255.9685 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -77.724 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 227.838 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "778834b9-89b5-4aab-8582-0a45df7d7e57")
+		(property "Netclass" "PWR"
+			(at 228.5365 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -105.156 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab694177-1d99-423d-9acd-8b3fe73afda3")
+		(property "Netclass" "PWR"
+			(at 67.564 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -269.494 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef0a239c-3a16-4ddb-a908-449dacc5f568")
+		(property "Netclass" "GND"
+			(at 93.472 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -231.394 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 72.898 55.118 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f726e4c8-0ea8-4748-ba22-cffdfab068b0")
+		(property "Netclass" "LEVEL_TRANSLATION"
+			(at 77.724 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -53.594 -97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Regulator_Linear:TLV75518PDBV")
 		(at 243.84 33.02 0)
@@ -8570,7 +8927,7 @@
 			(uuid "2dd3f45c-70c4-44a5-8d93-355a3962f2a8")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "U2")
 					(unit 1)
@@ -9102,7 +9459,7 @@
 			(uuid "cd1e670c-9511-45ab-8512-16e1ee1f530e")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "SW_1")
 					(unit 1)
@@ -10001,7 +10358,7 @@
 			(uuid "0feeb4c8-20ee-4b13-aa1b-938660f9bd97")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "J4")
 					(unit 1)
@@ -10271,7 +10628,7 @@
 			(uuid "7141e529-d6c3-4a1b-a9a0-7043a71949e9")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "C2")
 					(unit 1)
@@ -10417,7 +10774,7 @@
 			(uuid "0a3ea2d5-c31a-4c7e-b788-fe9c6ab1d38f")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "J7")
 					(unit 1)
@@ -11371,7 +11728,7 @@
 			(uuid "0c3c8ddc-e5d7-4f2a-9b1d-dbcd10dc9efb")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "CN1")
 					(unit 1)
@@ -11434,7 +11791,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "H4")
 					(unit 1)
@@ -11695,7 +12052,7 @@
 			(uuid "4e085312-41e9-44da-b602-3e39612874ea")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6"
 					(reference "#PWR021")
 					(unit 1)
@@ -11796,7 +12153,7 @@
 		)
 	)
 	(sheet
-		(at 227.125 57.05)
+		(at 227.633 56.796)
 		(size 49.395 29.07)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11805,13 +12162,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 132 132 0 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4e83f8d5-a547-42b8-8426-b71a9f8b331b")
 		(property "Sheetname" "Voltage Level Translator"
-			(at 240.03 72.898 0)
+			(at 240.03 62.738 0)
 			(effects
 				(font
 					(size 1.397 1.397)
@@ -11823,7 +12181,7 @@
 			)
 		)
 		(property "Sheetfile" "voltage_level_translator.kicad_sch"
-			(at 227.125 86.7046 0)
+			(at 227.633 86.4506 0)
 			(effects
 				(font
 					(size 1.27 1.27)

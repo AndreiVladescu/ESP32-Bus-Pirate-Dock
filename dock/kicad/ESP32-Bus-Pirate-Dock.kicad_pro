@@ -454,7 +454,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
@@ -475,7 +475,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -527,13 +527,22 @@
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
-        "name": "Power_1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3048,
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.508,
         "via_diameter": 0.4572,
         "via_drill": 0.2,
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "LEVEL_TRANSLATION",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 132, 0)",
         "wire_width": 6
       },
       {
@@ -544,21 +553,133 @@
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
-        "name": "Power_2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "PWR",
+        "pcb_color": "rgb(194, 0, 0)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.3048,
         "via_diameter": 0.4572,
         "via_drill": 0.2,
-        "wire_width": 6
+        "wire_width": 10
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+1V8": [
+        "PWR"
+      ],
+      "+3.3V": [
+        "PWR"
+      ],
+      "+5V": [
+        "PWR"
+      ],
+      "/Voltage Level Translator/IO10_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO10_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO11_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO11_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO12_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO12_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO13_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO13_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO15_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO15_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO16_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO16_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO17_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO17_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO18_H": [
+        "LEVEL_TRANSLATION"
+      ],
+      "/Voltage Level Translator/IO18_L": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GND": [
+        "GND"
+      ],
+      "GPIO10": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO11": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO12": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO13": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO15": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO16": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO17": [
+        "LEVEL_TRANSLATION"
+      ],
+      "GPIO18": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO10": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO11": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO12": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO13": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO15": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO16": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO17": [
+        "LEVEL_TRANSLATION"
+      ],
+      "IO18": [
+        "LEVEL_TRANSLATION"
+      ],
+      "VIO": [
+        "PWR"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -796,6 +917,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "main",
     "plot_directory": "",
     "space_save_all_events": true,

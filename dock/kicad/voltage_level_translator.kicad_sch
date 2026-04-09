@@ -4576,7 +4576,7 @@
 	)
 	(rectangle
 		(start 217.17 19.05)
-		(end 278.13 158.75)
+		(end 282.956 158.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4704,9 +4704,9 @@
 		)
 		(uuid "584e7bd0-5d14-4d41-b185-4d6ade5b17e4")
 	)
-	(text "Test Pads"
+	(text "Debug Interface"
 		(exclude_from_sim no)
-		(at 113.792 143.002 0)
+		(at 116.586 141.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7491,6 +7491,175 @@
 			)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 262.89 37.592) (xy 275.844 37.592) (xy 275.844 60.706) (xy 275.844 67.818) (xy 263.144 67.818)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9ef59ce8-b9ba-4f71-8b1e-6803938bcbb6)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 262.89 107.188) (xy 275.844 107.188) (xy 275.844 130.302) (xy 275.844 137.414) (xy 263.144 137.414)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b122dac4-3cdb-4215-923a-449b82725211)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 69.215 144.78) (xy 93.345 144.78) (xy 93.472 172.974) (xy 93.218 173.228) (xy 69.596 173.228)
+				(xy 69.342 172.974)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e4a64181-2886-4ab6-bb5c-721ac36e7388)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 262.89 107.188 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8e69702-3355-4837-88e6-a8a3da5094a3")
+		(property "Netclass" "LEVEL_TRANSLATION"
+			(at 263.5885 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 136.398 -44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 164.846 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1fffc29-6d46-4dc9-8c97-b616a13d4edf")
+		(property "Netclass" "PWR"
+			(at 163.068 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 145.288 445.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.342 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8f74e52-467b-4378-a668-09609b5181f7")
+		(property "Netclass" "LEVEL_TRANSLATION"
+			(at 70.0405 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 -7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 262.89 37.592 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbffa6d5-5fa3-4a23-8245-7c6251a581bb")
+		(property "Netclass" "LEVEL_TRANSLATION"
+			(at 263.5885 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 136.398 -114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+1V8")
 		(at 53.34 133.35 0)
@@ -8263,7 +8432,7 @@
 			(uuid "230ab20e-b95f-4e0b-aeac-8f1da89f4d77")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "SW1")
 					(unit 1)
@@ -8922,7 +9091,7 @@
 			(uuid "b14e018b-96d8-4dd6-bc18-b3baf75aafc7")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "J8")
 					(unit 1)
@@ -9192,7 +9361,7 @@
 			(uuid "1f7e93a5-ec34-44ed-a7ae-d50196602efa")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U5")
 					(unit 1)
@@ -9897,7 +10066,7 @@
 			(uuid "abb7a2f2-8fba-4f7d-b0bb-606755c102b1")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U3")
 					(unit 1)
@@ -10958,7 +11127,7 @@
 			(uuid "edad41c6-e354-45be-9735-065f551ffab3")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U6")
 					(unit 1)
@@ -11319,7 +11488,7 @@
 			(uuid "da076142-0c3e-4949-83fc-acdd0a749d92")
 		)
 		(instances
-			(project ""
+			(project "ESP32-Bus-Pirate-Dock"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP5")
 					(unit 1)
